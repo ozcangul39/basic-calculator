@@ -1,0 +1,22 @@
+islemler
+1. toplama islemi
+2.cikarma islemi
+3. carpma islemi
+4.bolme islemi
+********************
+""")
+
+a=float(input("birinci sayiyi giriniz:"))
+c=float(input("lutfen islemi giriniz:"))
+b=float(input("ikinci sayiyi giriniz:"))
+
+if c==1:
+    print("{} ile {} toplami {} dir.".format(a,b,a+b))
+if c==2:
+    print("{} ile {} farki {} dir.".format(a,b,a - b))
+if c==3:
+    print("{} ile {} carpimi {} dir.".format(a,b,a*b))
+if c==4:
+    print("{} ile {} bolümü {} dir.".format(a,b,a/b))
+else:
+    print("gecersiz islem")
